@@ -1,5 +1,5 @@
 import { async } from 'regenerator-runtime';
-import { API_URL, RES_PER_PAGE, PAGE_PAGGANATION, KEY } from './views/config';
+import { API_URL, RES_PER_PAGE, PAGE_PAGGANATION, KEY } from './config.js';
 // import { getJSON, sendJSON } from '../js/helpers';
 import { AJAX } from './helpers.js';
 import recipeView from './views/recipeView';
