@@ -68,6 +68,9 @@
     display: flex;
     align-items: center;
     padding: 7.5rem 8rem 3.5rem 8rem;
+    @media only screen and (max-width: 700px) {
+      flex-direction: column;
+    }
   }
 
   &__info {
@@ -116,6 +119,12 @@
       height: 2.25rem;
       width: 2.25rem;
       fill: $color-primary;
+    }
+
+    @media only screen and (max-width: 700px) {
+      width: 100%;
+      justify-content: center;
+      background-color: transparent;
     }
   }
 

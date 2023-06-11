@@ -1,6 +1,6 @@
 // $color-primary: #f59a83;
-$color-primary: #6d0000;
-$color-grad-1: #eedbdb;
+$color-primary: #1f0101;
+$color-grad-1: #615757;
 $color-grad-2: #e21818c7;
 
 $color-grey-light-1: #f9f5f3; // Light background
@@ -67,5 +67,10 @@ body {
     max-width: 100%;
     margin: 0;
     border-radius: 0;
+  }
+
+  @media only screen and (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
   }
 }
